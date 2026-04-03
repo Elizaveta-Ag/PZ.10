@@ -8,11 +8,9 @@ int main() {
     int N;
     cin >> N;
 
-    long long factorial = 1;
-    for (int i = 1; i <= N; i++){
-        factorial *= i;
+    for (int i = 1; i <= 10; i++) {
+        cout << N << " * " << i << " = " << N * i << endl;
     }
-    cout << factorial;
 
 
     return 0;
