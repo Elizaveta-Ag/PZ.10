@@ -7,11 +7,12 @@ int main() {
 
     int N;
     cin >> N;
-    int sum = 0;
-    
-    for (int i = 1; i <= N; i++) {
-    sum += i;
+
+    for (int i = 2; i <= N; i+= 2) {
+    cout << i << " ";
     }
-       cout << sum; 
+
+
+
     return 0;
 }
